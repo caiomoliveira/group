@@ -18,7 +18,9 @@ public class Group_test {
        
     /**
      * @param args the command line arguments
+     * 
      */
+    }
 
     static void WillianMethood(){
         /**
@@ -26,6 +28,7 @@ public class Group_test {
         */
         System.out.println("This is Willian Methood");
         System.out.println("This is my prog");
+        return;
     }
     public static void main(String[] args) {
         System.out.println("testado com sucesso!");
@@ -39,6 +42,6 @@ public class Group_test {
         WillianMethood();
 >>>>>>> 3d43267f39e1a77e7c8389a12b574332858659dc
     }
-    }
+    
     
 }
