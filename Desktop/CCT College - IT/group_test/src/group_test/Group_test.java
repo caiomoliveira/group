@@ -19,13 +19,25 @@ public class Group_test {
     /**
      * @param args the command line arguments
      */
+
+    static void WillianMethood(){
+        /**
+        * @willian
+        */
+        System.out.println("This is Willian Methood");
+        System.out.println("This is my prog");
+    }
     public static void main(String[] args) {
         System.out.println("testado com sucesso!");
         System.out.println("testado com sucesso! Group R "); // Willian test
         System.out.println("Build Successful!");//Mayara
+<<<<<<< HEAD
 
         Mayaramethod ();
 
+=======
+        WillianMethood();
+>>>>>>> 3d43267f39e1a77e7c8389a12b574332858659dc
     }
     }
     
