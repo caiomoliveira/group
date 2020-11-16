@@ -15,6 +15,7 @@ public class Group_test {
         *author: Mayara
         */
         System.out.println("This is mayara's code");
+        return;
        
     /**
      * @param args the command line arguments
