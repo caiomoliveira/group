@@ -11,15 +11,16 @@ package group_test;
  */
 public class Group_test {
 
-    static void wallace(){
-           System.out.println("wallace here")
-       }
+    static void wallace() {
+        System.out.println("wallace here");
+    }
 
     public static void main(String[] args) {
         System.out.println("testado com sucesso!");
         System.out.println("testado com sucesso! Group R "); // Willian test
         System.out.println("Build Successful!");// Mayara
+        wallace();
 
     }
 
-}}
+}
