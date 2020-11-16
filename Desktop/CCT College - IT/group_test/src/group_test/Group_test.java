@@ -10,7 +10,12 @@ package group_test;
  * @author 35383
  */
 public class Group_test {
-
+    static void Mayaramethod () {
+        /**
+        *author: Mayara
+        */
+        System.out.println("This is mayara's code");
+       
     /**
      * @param args the command line arguments
      */
@@ -19,7 +24,9 @@ public class Group_test {
         System.out.println("testado com sucesso! Group R "); // Willian test
         System.out.println("Build Successful!");//Mayara
 
+        Mayaramethod ();
 
+    }
     }
     
 }
