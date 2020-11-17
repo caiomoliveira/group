@@ -36,7 +36,6 @@ public class Group_test {
         System.out.println("wallace here");
         return;
     }
-
     public static void main(String[] args) {
 
         Mayaramethod();
