@@ -10,6 +10,7 @@ package group_test;
  * @author 35383
  */
 public class Group_test {
+<<<<<<< HEAD
     static void Mayaramethod () {
         /**
         *author: Mayara
@@ -36,13 +37,24 @@ public class Group_test {
         System.out.println("testado com sucesso! Group R "); // Willian test
         System.out.println("Build Successful!");//Mayara
 <<<<<<< HEAD
-
-        Mayaramethod ();
-
 =======
-        WillianMethood();
->>>>>>> 3d43267f39e1a77e7c8389a12b574332858659dc
+
+    static void wallace() {
+        System.out.println("wallace here");
     }
+
+    public static void main(String[] args) {
+        System.out.println("testado com sucesso!");
+        System.out.println("testado com sucesso! Group R "); // Willian test
+        System.out.println("Build Successful!");// Mayara
+        wallace();
+>>>>>>> 911051a2bc9867184541aeb44010d35a075f62dc
+
+    }
+<<<<<<< HEAD
     
     
+=======
+
+>>>>>>> 911051a2bc9867184541aeb44010d35a075f62dc
 }
