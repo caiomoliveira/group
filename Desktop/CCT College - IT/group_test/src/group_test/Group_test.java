@@ -5,6 +5,8 @@
  */
 package group_test;
 
+import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
+
 /**
  *
  * @author 35383
@@ -26,8 +28,16 @@ public class Group_test {
         System.out.println("Renner is having problem with github ahahahahahahahah");
         System.out.println("Coffe is good");
         System.out.println("this work is baddd");
-        System.out.println("I finally did manage to fix that chit"); // renner
-        int sum = 5
+<<<<<<< HEAD
+        ======
+        System.out.println("Caio was here!");
+        System.out.println("One more line");
+        System.out.println("hi, Mayara here");
+        System.out.println("Test Renner");
+        
+>>>>>>> 43ae730b2b55ab70680e4186e6fa6c92ceec7eaa
+
     }
+    // teste renner
 
 }
