@@ -41,6 +41,8 @@ public class Group_test {
 
     static void wallace() {
         System.out.println("wallace here");
+        System.out.println("HELP");
+
     }
 
     public static void main(String[] args) {
@@ -48,8 +50,12 @@ public class Group_test {
         System.out.println("testado com sucesso! Group R "); // Willian test
         System.out.println("Build Successful!");// Mayara
         wallace();
+<<<<<<< HEAD
 >>>>>>> 911051a2bc9867184541aeb44010d35a075f62dc
 
+=======
+        String gen = "M";
+>>>>>>> fd1abf9eb91d20ac38d247fdf0c0f51433437cf1
     }
 <<<<<<< HEAD
     
