@@ -32,35 +32,21 @@ public class Group_test {
         System.out.println("This is my prog");
         return;
     }
+    static void wallace() {
+        System.out.println("wallace here");
+        return;
+    }
     public static void main(String[] args) {
         System.out.println("testado com sucesso!");
         System.out.println("testado com sucesso! Group R "); // Willian test
         System.out.println("Build Successful!");//Mayara
-<<<<<<< HEAD
-=======
-
-    static void wallace() {
-        System.out.println("wallace here");
-        System.out.println("HELP");
-
-    }
-
-    public static void main(String[] args) {
-        System.out.println("testado com sucesso!");
-        System.out.println("testado com sucesso! Group R "); // Willian test
-        System.out.println("Build Successful!");// Mayara
+        Mayaramethod () ;
+        WillianMethood();
         wallace();
-<<<<<<< HEAD
->>>>>>> 911051a2bc9867184541aeb44010d35a075f62dc
+        
 
-=======
-        String gen = "M";
->>>>>>> fd1abf9eb91d20ac38d247fdf0c0f51433437cf1
     }
-<<<<<<< HEAD
     
-    
-=======
 
->>>>>>> 911051a2bc9867184541aeb44010d35a075f62dc
+
 }
