@@ -13,6 +13,8 @@ public class Group_test {
 
     static void wallace() {
         System.out.println("wallace here");
+        System.out.println("HELP");
+
     }
 
     public static void main(String[] args) {
