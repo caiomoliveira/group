@@ -24,6 +24,8 @@ public class Group_test {
         wallace();
         String gen = "M";
         System.out.println("Renner is having problem with github ahahahahahahahah");
+        System.out.println("Coffe is good");
+        System.out.println("this work is baddd");
     }
 
 }
