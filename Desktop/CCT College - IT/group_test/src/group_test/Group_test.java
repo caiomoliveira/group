@@ -36,11 +36,24 @@ public class Group_test {
         System.out.println("wallace here");
         return;
     }
+<<<<<<< HEAD
+=======
+
+    static void CaioOliveira() {
+        /**
+         * @Caio
+         */
+        System.out.println("Caio here");
+        return;
+    }
+
+>>>>>>> 2c53c71069f73e769871e6f19ae2fa8a8fcf714e
     public static void main(String[] args) {
 
         Mayaramethod();
         WillianMethood();
         wallace();
+        CaioOliveira();
 
     }
 }
