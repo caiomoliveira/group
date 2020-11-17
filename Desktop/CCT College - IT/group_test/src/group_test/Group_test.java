@@ -43,15 +43,21 @@ public class Group_test {
         Mayaramethod () ;
         WillianMethood();
         wallace();
-<<<<<<< HEAD
+
         
 
-=======
+
         String gen = "M";
         System.out.println("Renner is having problem with github ahahahahahahahah");
         System.out.println("Coffe is good");
         System.out.println("this work is baddd");
->>>>>>> 0e84f2a983247b01aab4b4fdc74dcc329266dc8f
+
+
+        System.out.println("Caio was here!");
+        System.out.println("One more line");
+        System.out.println("hi, Mayara here");
+        System.out.println("To cagado de fome");
+
     }
     
 
