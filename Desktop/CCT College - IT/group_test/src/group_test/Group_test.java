@@ -35,6 +35,9 @@ public class Group_test {
         return;
     }
     static void wallace() {
+        /**
+         * @Wallace
+         */
         System.out.println("wallace here");
         return;
     }
@@ -45,37 +48,12 @@ public class Group_test {
         Mayaramethod () ;
         WillianMethood();
         wallace();
-
-        
-
-
-        String gen = "M";
         System.out.println("Renner is having problem with github ahahahahahahahah");
         System.out.println("Coffe is good");
         System.out.println("this work is baddd");
-<<<<<<< HEAD
-<<<<<<< HEAD
-        ======
         System.out.println("Caio was here!");
         System.out.println("One more line");
         System.out.println("hi, Mayara here");
         System.out.println("Test Renner");
-        
->>>>>>> 43ae730b2b55ab70680e4186e6fa6c92ceec7eaa
-
     }
-    // teste renner
-=======
-
-
-        System.out.println("Caio was here!");
-        System.out.println("One more line");
-        System.out.println("hi, Mayara here");
-        System.out.println("To cagado de fome");
-
     }
-    
-
->>>>>>> 726ded044381ec4267a7929b4950902e6977f618
-
-}
