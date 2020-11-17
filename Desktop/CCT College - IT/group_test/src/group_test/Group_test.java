@@ -22,7 +22,7 @@ public class Group_test {
         System.out.println("testado com sucesso! Group R "); // Willian test
         System.out.println("Build Successful!");// Mayara
         wallace();
-
+        String gen = "M";
     }
 
 }
