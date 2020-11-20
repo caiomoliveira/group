@@ -47,13 +47,27 @@ public class Group_test {
         return;
     }
 
+<<<<<<< Updated upstream
 >>>>>>> 2c53c71069f73e769871e6f19ae2fa8a8fcf714e
+=======
+    static void rennerSantana();
+
+    {
+        /**
+         * @renner
+         */
+        System.out.println("Renner here");
+        return;
+    }
+
+>>>>>>> Stashed changes
     public static void main(String[] args) {
 
         Mayaramethod();
         WillianMethood();
         wallace();
         CaioOliveira();
-
+        rennerSantana();
+    
     }
 }
