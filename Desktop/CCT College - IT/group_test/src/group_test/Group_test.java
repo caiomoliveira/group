@@ -61,7 +61,7 @@ public class Group_test {
         WillianMethood();
         wallace();
         CaioOliveira();
-        rennerSantana();//teste
+        rennerSantana(); 
 
     }
 }
