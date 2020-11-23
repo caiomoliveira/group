@@ -5,15 +5,18 @@
  */
 package group_test;
 
-import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
+import java.util.Scanner;
 
 /**
  *
- * @author 35383
+ * @author Grupo Rugby
+ * @william
+ * @wallace
+ * @mayara
+ * @renner
+ * @caio
  */
 public class Group_test {
-
-    }
 
     // Mayara
     public double add(double a, double b) {
@@ -57,7 +60,7 @@ public class Group_test {
               return a % b;
             }
 
-       public static void main(String[]args) { 
+    public static void main(String[]args) { 
     
         try{
         
@@ -86,22 +89,24 @@ public class Group_test {
                 case 3:
                     System.out.println("Dividing result: "+(myCalculator.divide(a,b)));
                     break;
-        static void wallace() {
-        /**
-         * @Wallace
-         */
-        System.out.println("wallace here");
-        return;
-    }
-
+                    case 4:
+                    System.out.println("Multiplying result: "+(myCalculator.multiply(a,b)));
+                    break;
+                case 5:
+                    System.out.println("Moduling result: "+(myCalculator.modulo(a,b)));
+                    break;
+                case 6:
+                    break;
+                default:
+                    break;
+            }
+            
     
-    public static void main(String[] args) {
+        }catch(
 
-        Mayaramethod();
-        WillianMethood();
-        wallace();
-        CaioOliveira();
-        rennerSantana();
-
+    Exception e)
+    {
+        System.out.println("Numbers only!");
     }
+}
 }
