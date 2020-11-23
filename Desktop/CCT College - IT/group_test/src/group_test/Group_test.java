@@ -57,25 +57,23 @@ public class Group_test {
               return a % b;
             }
 
-    static void WillianMethood() {
-        //Willian
-    public static void main(String[]args) { 
+       public static void main(String[]args) { 
     
-    try{
-    
-    Scanner input = new Scanner(System.in);
-    
-    double a;
-    double b;
-    int operation;
-    
-        System.out.println("Type first number: ");
-        a = input.nextDouble();
-        System.out.println("Type second number: ");
-        b = input.nextDouble();
-        System.out.println("Type a number for an operation: " + "\n" + "Sum = 1" + "\n" + "Sub = 2" + "\n" + "Div = 3" + "\n" + "Mul = 4" + "\n" + "Mod = 5" + "\n" + "Exit = 6");
-        operation = input.nextInt();
-    }
+        try{
+        
+        Scanner input = new Scanner(System.in);
+        
+        double a;
+        double b;
+        int operation;
+        
+            System.out.println("Type first number: ");
+            a = input.nextDouble();
+            System.out.println("Type second number: ");
+            b = input.nextDouble();
+            System.out.println("Type a number for an operation: " + "\n" + "Sum = 1" + "\n" + "Sub = 2" + "\n" + "Div = 3" + "\n" + "Mul = 4" + "\n" + "Mod = 5" + "\n" + "Exit = 6");
+            operation = input.nextInt();
+        }
 
         static void wallace() {
         /**
