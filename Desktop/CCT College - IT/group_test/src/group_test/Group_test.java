@@ -74,7 +74,18 @@ public class Group_test {
             System.out.println("Type a number for an operation: " + "\n" + "Sum = 1" + "\n" + "Sub = 2" + "\n" + "Div = 3" + "\n" + "Mul = 4" + "\n" + "Mod = 5" + "\n" + "Exit = 6");
             operation = input.nextInt();
         }
-
+            Calculator myCalculator = new Calculator();
+            
+            switch (operation) {
+                case 1:
+                    System.out.println("Suming result: " +(myCalculator.add(a,b)));
+                    break;
+                case 2:
+                    System.out.println("Subtracting result: "+(myCalculator.subtract(a,b)));
+                    break;
+                case 3:
+                    System.out.println("Dividing result: "+(myCalculator.divide(a,b)));
+                    break;
         static void wallace() {
         /**
          * @Wallace
@@ -83,14 +94,7 @@ public class Group_test {
         return;
     }
 
-    static void CaioOliveira() {
-        /**
-         * @Caio
-         */
-        System.out.println("Caio here");
-        return;
-    }
-
+    
     public static void main(String[] args) {
 
         Mayaramethod();
