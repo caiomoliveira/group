@@ -43,8 +43,6 @@ public class Group_test {
         System.out.println("wallace here");
         return;
     }
-<<<<<<< HEAD
-=======
 
     static void CaioOliveira() {
         /**
@@ -54,13 +52,23 @@ public class Group_test {
         return;
     }
 
->>>>>>> 2c53c71069f73e769871e6f19ae2fa8a8fcf714e
+    static void rennerSantana();
+
+    {
+        /**
+         * @renner
+         */
+        System.out.println("Renner here");
+        return;
+    }
+
     public static void main(String[] args) {
 
         Mayaramethod();
         WillianMethood();
         wallace();
         CaioOliveira();
+        rennerSantana(); 
 
     }
 }
