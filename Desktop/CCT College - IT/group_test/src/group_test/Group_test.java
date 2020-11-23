@@ -12,18 +12,50 @@ import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
  * @author 35383
  */
 public class Group_test {
-    
-        }
-        //Mayara
-        public double add(double a, double b){
+
+    }
+
+    // Mayara
+    public double add(double a, double b) {
         return a + b;
-        }
-        public double subtract(double a, double b){
+    }
+
+    public double subtract(double a, double b) {
         return a - b;
+    }
+
+    public double multiply(double a, double b) {
+        return a * b;
+
+    }
+
+    public double divide(double a, double b) {
+
+        if (b == 0) {
+
+            System.out.println("Error! Dividing by zero is not allowed.");
+
+            return 0;
+
+        } else {
+
+            return a / b;
+
         }
-        public double multiply(double a, double b){
-        return a*b;
-        }
+    }
+
+    public double modulo(double a, double b){
+            
+            if( b == 0) {
+              
+              System.out.println("Error! Dividing by zero is not allowed.");
+              
+              return 0;
+              
+            } else {
+              
+              return a % b;
+            }
 
     static void WillianMethood() {
         /**
@@ -50,23 +82,13 @@ public class Group_test {
         return;
     }
 
-    static void rennerSantana();
-
-    {
-        /**
-         * @renner
-         */
-        System.out.println("Renner here");
-        return;
-    }
-
     public static void main(String[] args) {
 
         Mayaramethod();
         WillianMethood();
         wallace();
         CaioOliveira();
-        rennerSantana(); 
+        rennerSantana();
 
     }
 }
