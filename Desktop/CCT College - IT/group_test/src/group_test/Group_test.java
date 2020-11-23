@@ -47,66 +47,68 @@ public class Group_test {
         }
     }
 
-    public double modulo(double a, double b){
-            
-            if( b == 0) {
-              
-              System.out.println("Error! Dividing by zero is not allowed.");
-              
-              return 0;
-              
-            } else {
-              
-              return a % b;
-            }
+    public double modulo(double a, double b) {
 
-    public static void main(String[]args) { 
-    
-        try{
-        
-        Scanner input = new Scanner(System.in);
-        
-        double a;
-        double b;
-        int operation;
-        
+        if (b == 0) {
+
+            System.out.println("Error! Dividing by zero is not allowed.");
+
+            return 0;
+
+        } else {
+
+            return a % b;
+        }
+
+    }
+
+    public static void main(String[] args) {
+
+        try {
+
+            Scanner input = new Scanner(System.in);
+
+            double a;
+            double b;
+            int operation;
+
             System.out.println("Type first number: ");
             a = input.nextDouble();
             System.out.println("Type second number: ");
             b = input.nextDouble();
-            System.out.println("Type a number for an operation: " + "\n" + "Sum = 1" + "\n" + "Sub = 2" + "\n" + "Div = 3" + "\n" + "Mul = 4" + "\n" + "Mod = 5" + "\n" + "Exit = 6");
+            System.out.println("Type a number for an operation: " + "\n" + "Sum = 1" + "\n" + "Sub = 2" + "\n"
+                    + "Div = 3" + "\n" + "Mul = 4" + "\n" + "Mod = 5" + "\n" + "Exit = 6");
             operation = input.nextInt();
-        }
-            Calculator myCalculator = new Calculator();
-            
+
+            Group_test myCalculator = new Group_test();
+
             switch (operation) {
                 case 1:
-                    System.out.println("Suming result: " +(myCalculator.add(a,b)));
+                    System.out.println("Suming result: " + (myCalculator.add(a, b)));
                     break;
                 case 2:
-                    System.out.println("Subtracting result: "+(myCalculator.subtract(a,b)));
+                    System.out.println("Subtracting result: " + (myCalculator.subtract(a, b)));
                     break;
                 case 3:
-                    System.out.println("Dividing result: "+(myCalculator.divide(a,b)));
+                    System.out.println("Dividing result: " + (myCalculator.divide(a, b)));
                     break;
-                    case 4:
-                    System.out.println("Multiplying result: "+(myCalculator.multiply(a,b)));
+                case 4:
+                    System.out.println("Multiplying result: " + (myCalculator.multiply(a, b)));
                     break;
                 case 5:
-                    System.out.println("Moduling result: "+(myCalculator.modulo(a,b)));
+                    System.out.println("Moduling result: " + (myCalculator.modulo(a, b)));
                     break;
                 case 6:
                     break;
                 default:
                     break;
             }
-            
-    
-        }catch(
 
-    Exception e)
-    {
-        System.out.println("Numbers only!");
+        } catch (
+
+        Exception e) {
+            System.out.println("Numbers only!");
+        }
     }
-}
+
 }
