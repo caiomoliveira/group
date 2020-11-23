@@ -12,9 +12,7 @@ import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
  * @author 35383
  */
 public class Group_test {
-    static void Mayaramethod() {
-        {
-
+    
         }
         //Mayara
         public double add(double a, double b){
