@@ -13,12 +13,19 @@ import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
  */
 public class Group_test {
     static void Mayaramethod() {
-        /**
-         * author: Mayara
-         */
-        System.out.println("This is mayara's code");
-        return;
-    }
+        {
+
+        }
+        //Mayara
+        public double add(double a, double b){
+        return a + b;
+        }
+        public double subtract(double a, double b){
+        return a - b;
+        }
+        public double multiply(double a, double b){
+        return a*b;
+        }
 
     static void WillianMethood() {
         /**
